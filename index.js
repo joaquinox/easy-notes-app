@@ -24,7 +24,6 @@ mongoose.connect(dbConfig.url, {
   process.exit();
 })
 
-
 // Define a simple route
 app.get('/', (req, res) => {
   res.json({"message": "Welcome to EasyNotes. Organise and keep track of all your notes."})
